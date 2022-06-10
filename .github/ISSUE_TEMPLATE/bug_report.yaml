@@ -16,8 +16,8 @@ body:
       description: |
         Describe the system configuration
       value: |
-        - **OS Platform and Distribution (e.g., Linux Ubuntu 16.04)**:
-        - **Python version**:
+        - OS and Distribution (e.g., Linux Ubuntu 16.04):
+        - Python version: 
   - type: textarea
     attributes:
       label: Describe the bug 
