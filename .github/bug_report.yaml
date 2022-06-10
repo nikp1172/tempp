@@ -1,0 +1,48 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: product
+      description: In which part of product do you want to report a bug?
+      options:
+        - Eperiment Tracking (MLFoundry)
+        - Service Deployment (ServiceFoundry)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: version
+      description: What version of the package you are using?
+      placeholder: 0.0.0
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: System information
+      description: |
+        Describe the system configuration
+      value: |
+        - **OS Platform and Distribution (e.g., Linux Ubuntu 16.04)**:
+        - **Python version**:
+        - **yarn version, if running the dev UI**:
+    validations:
+      required: true
+   - type: textarea
+    attributes:
+      label: Describe the bug
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce the bug
+      description: |
+        Describe the problem clearly here. Include descriptions of the expected behavior and the actual behavior.
+    validations:
+      required: true
+      
