@@ -4,7 +4,7 @@ title: "[FR]: "
 labels: ["feature"]
 
 body:
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Feature Description
