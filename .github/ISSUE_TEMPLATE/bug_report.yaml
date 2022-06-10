@@ -5,9 +5,9 @@ labels: ["bug"]
 
 body:
   - type: input
-    id: Package Version Details
+    id: version
     attributes:
-      label: version
+      label: Package Version Details
       description: What version of the packages you are using?
       placeholder: mlfoundry 2.0.1, servicefoundry 1.2.1
   - type: textarea
