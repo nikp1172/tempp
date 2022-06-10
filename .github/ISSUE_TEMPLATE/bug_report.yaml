@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug"]
 
 body:
-  - type: dropdown
+ - type: dropdown
     id: product
     attributes:
       label: product
